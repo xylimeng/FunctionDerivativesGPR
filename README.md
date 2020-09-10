@@ -2,7 +2,7 @@
 Nonparametric estimation of function and function derivatives using Gaussian Process Regression 
 
 ## Example
-The following code is available in the file `FunctionDerivativesGPR.R`.
+The following code is available in the file `Example.R`.
 
 Define the true regression function and its derivative.
 ```R
