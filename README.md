@@ -2,7 +2,7 @@
 Nonparametric estimation of function and function derivatives using Gaussian Process Regression 
 
 ## Example
-The following code is available in the file "GPR.R".
+The following code is available in the file `GPR.R`.
 
 Define the true regression function and its derivative.
 ```R
@@ -49,11 +49,11 @@ f0_new = sapply(x_new, f0) # true value at grid points
 f0_new_prime = sapply(x_new, f0_prime) # true derivative at grid points
 ```
 
-The input of the "get_result" function can be "Sobolev", "SE" and "Matern", which corresponds to second-order Sobolev kernel, squared exponential kernel and Matern kernel as the covariance kernel in the Gaussian process prior. The return of the function consists of two parts: (1) the RMSE for estimating the regression function and its derivative, and (2) the plots of estimating the regression function and its derivative, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous L-infinity credible bands. 
+The input of the `get_GPR` function can be "Sobolev", "SE" and "Matern", which corresponds to second-order Sobolev kernel, squared exponential kernel and Matern kernel as the covariance kernel in the Gaussian process prior. The return of the function consists of two parts: (1) the RMSE for estimating the regression function and its derivative, and (2) the plots of estimating the regression function and its derivative, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous L-infinity credible bands. 
 
 ```R
-get_result("Sobolev")
-get_result("SE")
-get_result("Matern")
+get_GPR("Sobolev")
+get_GPR("SE")
+get_GPR("Matern")
 ```
 
