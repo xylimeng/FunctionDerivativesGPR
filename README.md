@@ -15,7 +15,10 @@ f0 = function(x){
 f0_prime = function(x){
   sum(sqrt(2) * I ^ (- 4) * sin(I) * (0.5 - I) * pi * sin((I - 0.5) * pi * x))
 }
+```
 
+Generate random sample
+```R
 set.seed(1000)
 n = 1000 # number of data points
 x = sort(runif(n, 0, 1)) # random design
