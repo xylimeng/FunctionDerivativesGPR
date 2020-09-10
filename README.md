@@ -49,7 +49,7 @@ f0_new = sapply(x_new, f0) # true value at grid points
 f0_new_prime = sapply(x_new, f0_prime) # true derivative at grid points
 ```
 
-The input of the "get_result" function can be "Sobolev", "SE" and "Matern", which corresponds to second-order Sobolev kernel, squared exponential kernel and Matern kernel as the covariance kernel in the Gaussian process prior. The return of the function consists of two parts: (1) the RMSE for estimating the regression function and its derivative, and (2) the plots of estimating the regression function and its derivative, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous $L_\infty$ credible bands. 
+The input of the "get_result" function can be "Sobolev", "SE" and "Matern", which corresponds to second-order Sobolev kernel, squared exponential kernel and Matern kernel as the covariance kernel in the Gaussian process prior. The return of the function consists of two parts: (1) the RMSE for estimating the regression function and its derivative, and (2) the plots of estimating the regression function and its derivative, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous [L_\infty] credible bands. 
 
 ```R
 get_result("Sobolev")
