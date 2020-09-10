@@ -40,3 +40,5 @@ get_GPR("Sobolev")
 get_GPR("SE")
 get_GPR("Matern")
 ```
+
+## Reference
