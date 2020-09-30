@@ -46,7 +46,6 @@ get_GPR("Sobolev")
 # [1] 2.3564
 ```
 
-```
 Plots for estimating the regression function, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous L-infinity credible bands.
 ![GitHub Logo](/images/Sobolev1.png)
 Plots for estimating the derivative of the regression function, where the dotted line stands for the posterior mean and dashes lines for the 95% simultaneous L-infinity credible bands.
