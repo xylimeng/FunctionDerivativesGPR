@@ -49,7 +49,7 @@ get_GPR("SE")
 get_GPR("Matern")
 ```
 ![Alt text](Image URL)
-![GitHub Logo](/images/Sobolev1.eps)
+![GitHub Logo](/images/Sobolev1.png)
 
 
 ## Reference
