@@ -55,6 +55,7 @@ Plots for estimating the derivative of the regression function, where the dotted
 ![GitHub Logo](/images/Sobolev2.png)
 
 
+We can use other kernel for the GP prior, including squared exponential kernel and Matern kernel.
 ```R
 get_GPR("SE")
 get_GPR("Matern")
