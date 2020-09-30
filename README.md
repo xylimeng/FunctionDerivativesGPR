@@ -44,12 +44,17 @@ get_GPR("Sobolev")
 
 # $Derivative_RMSE
 # [1] 2.3564
+```
 
+![GitHub Logo](/images/Sobolev1.png)
+![GitHub Logo](/images/Sobolev2.png)
+
+
+```R
 get_GPR("SE")
 get_GPR("Matern")
 ```
-![Alt text](Image URL)
-![GitHub Logo](/images/Sobolev1.png)
+
 
 
 ## Reference
