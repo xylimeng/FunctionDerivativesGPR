@@ -37,6 +37,15 @@ The input of the `get_GPR` function can be "Sobolev", "SE" or "Matern", which co
 
 ```R
 get_GPR("Sobolev")
+
+# $Function_RMSE
+# [1] 0.2613019
+
+# output:
+# $Derivative_RMSE
+# [1] 2.3564
+
+
 get_GPR("SE")
 get_GPR("Matern")
 ```
