@@ -177,7 +177,7 @@ get_GPR = function(kernel){
   # Matern kernel
   if(kernel == "Matern"){
     # Candidates of smoothness parameter
-    nu_min = 2; nu_max = 3
+    nu_min = 2; nu_max = 4
     seq_nu = seq(nu_min, nu_max, by = 0.5)
     n_seq = length(seq_nu)
     seq_lambda = mseBF = rep(0, n_seq)
